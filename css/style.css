@@ -1,0 +1,170 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+
+}
+section{
+  padding: 100px 0 100px 0;
+
+}
+
+hr {
+  width: 90%;
+  border-style: inset;
+  border-color: #22577E;
+  border-width: 0.5px;
+}
+
+h2 {
+  color: #fff;
+  text-align: left;
+  margin-left: 40px;
+  font-family: 'Prata', serif;
+}
+
+p {
+  font-family: 'Prata', serif;
+  font-size: 17Px;
+}
+
+.flex-container {
+  width: 40%;
+  background-color: hsl(217, 54%, 11%);
+  padding: 5px;
+  text-align: center;
+ margin: auto;
+ border-radius: 12%;
+}
+.container {
+  border-radius: 5%;
+  width: 80%;
+margin: auto;
+  padding-top: 10PX;
+  background-color: hsl(215, 32%, 27%);
+}
+.top-paragragh {
+  width: 80%;
+  margin-left: 40px;
+  text-align: left;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+/* image */
+.image-equilibrium {
+  width: 80%;
+  border-radius: 5%;
+}
+
+/* low container */
+.view-icon {
+  width: 15%;
+  padding-left: 10px;
+}
+
+.ethereum {
+  width: 60%;
+  display: inline-block;
+  font-size: 13px;
+  color: cyan;
+  padding-left: 3px;
+}
+.days {
+  width: 40%;
+  display: inline-block;
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+}
+.first-box {
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+}
+.second-box {
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+}
+/* bottom section */
+.image-paragragh {
+  width: 10%;
+}
+.bottom-container{
+  width: 80%;
+  text-align: left;
+  margin-left: 32px;
+}
+.bottom-paragragh {
+  display: inline-block;
+  font-family: 'Prata', serif;
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+.bottom{
+  color: #fff;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+  }
+@media (max-width: 1212px ) {
+.flex-container{
+  width: 45%
+}
+}
+@media (max-width:1091px) {
+  .flex-container{
+    width: 50%;
+  }
+}
+@media (max-width:977px) {
+  .flex-container{
+    width: 55%;
+  }
+}
+@media (max-width:891px) {
+  .flex-container{
+    width: 60%;
+  }
+}
+@media (max-width:822px) {
+.flex-container{
+  width: 65%;
+}
+}
+@media(max-width :768px) {
+.flex-container{
+  width: 70%;
+}
+}
+@media(max-width :685px) {
+.flex-container{
+  width: 75%;
+}
+}
+@media(max-width :670px) {
+.flex-container{
+  width: 80%;
+}
+}@media(max-width :597px) {
+.flex-container{
+  width: 85%;
+}
+}
+@media(max-width :550px) {
+.flex-container{
+  width: 90%;
+}
+}
+@media(max-width :400px) {
+.flex-container{
+  width: 95%;
+}
+}
+@media(max-width :350px) {
+.flex-container{
+  width: 100%;
+}
+}
